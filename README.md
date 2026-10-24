@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/kjhealy/nycxwalks/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/kjhealy/nycxwalks/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The nycxwalks package provides crosswalk tables for fifteen New York
