@@ -1,0 +1,10 @@
+.Rproj.user
+/docs
+tmp/
+.DS_Store
+!man/figures/
+data-raw/crosswalks/outputs/*/all_boundaries.geojson
+.Rhistory
+.RData
+.httr-oauth
+.quarto

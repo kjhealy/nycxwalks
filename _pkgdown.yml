@@ -1,0 +1,40 @@
+authors:
+  Kieran Healy:
+    href: http://kieranhealy.org
+
+url: https://kjhealy.github.io/nycxwalks/
+template:
+  bootstrap: 5
+  bslib:
+    base_font: {google: "IBM Plex Sans"}
+    heading_font: {google: "IBM Plex Sans"}
+    code_font: {google: "IBM Plex Mono"}
+
+reference:
+  - title: "Crosswalks"
+    desc: How fifteen NYC geographies overlap.
+    contents:
+      - nyc_xwalk
+      - nyc_xwalk_df
+      - nyc_xwalk_wide_df
+  - title: "Geographies and boundaries"
+    desc: Sources, releases, and the boundaries the crosswalks were computed from.
+    contents:
+      - nyc_xwalk_geographies_df
+      - nyc_xwalk_boundaries_sf
+
+navbar:
+  right:
+   - icon: fa-github
+     href: https://github.com/kjhealy/nycxwalks
+     aria-label: GitHub repository
+
+figures:
+  dev: grDevices::png
+  dpi: 300
+  dev.args: []
+  fig.ext: png
+  fig.width: 7.2916667
+  fig.height: ~
+  fig.retina: 2
+  fig.asp: 1.618

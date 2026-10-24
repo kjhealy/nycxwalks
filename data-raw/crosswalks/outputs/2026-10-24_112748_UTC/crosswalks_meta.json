@@ -1,0 +1,8 @@
+{
+  "buffer_feet": -50,
+  "min_intersection_area_final": 100,
+  "epsilon": 1e-06,
+  "exclude_ids": "cc_upcoming",
+  "primary_ids": ["bid", "cc", "cd", "dsny", "fb", "hc", "hd", "ibz", "nta", "nycongress", "pp", "sa", "sd", "ss", "zipcode"],
+  "target_ids": ["bid", "cc", "cd", "dsny", "fb", "hc", "hd", "ibz", "nta", "nycongress", "pp", "sa", "sd", "ss", "zipcode"]
+}

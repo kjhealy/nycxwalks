@@ -1,0 +1,146 @@
+{
+  "run_id": "2026-10-24_112748_UTC",
+  "git_sha": {},
+  "config": {
+    "auto_detect_latest": true,
+    "preferred_cycle": {},
+    "target_crs": "EPSG:4326"
+  },
+  "datasets": [
+    {
+      "id": "cd",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/community-districts/nycd_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/community-districts/nycd_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "pp",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/police-precincts/nypp_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/police-precincts/nypp_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "dsny",
+      "original_url": "https://data.cityofnewyork.us/api/geospatial/i6mn-amj2?method=export&format=Shapefile",
+      "resolved_url": "https://data.cityofnewyork.us/api/geospatial/i6mn-amj2?method=export&format=Shapefile",
+      "cycle": {},
+      "auto_detected": false,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "fb",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/fire-battalions/nyfb_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/fire-battalions/nyfb_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "sd",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/school/nysd_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/school/nysd_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "hc",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/health-center/nyhc_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/health-center/nyhc_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "cc",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/city-council/nycc_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/city-council/nycc_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "nycongress",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/congressional/nycg_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/congressional/nycg_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "sa",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/state-assembly/nyad_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/state-assembly/nyad_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "ss",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/state-senate/nyss_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/state-senate/nyss_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "bid",
+      "original_url": "https://data.cityofnewyork.us/resource/7jdm-inj8.geojson",
+      "resolved_url": "https://data.cityofnewyork.us/resource/7jdm-inj8.geojson",
+      "cycle": {},
+      "auto_detected": false,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "nta",
+      "original_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/neighborhood-tabulation-areas/nynta2020_25a.zip",
+      "resolved_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/neighborhood-tabulation-areas/nynta2020_25d.zip",
+      "cycle": "25d",
+      "auto_detected": true,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "zipcode",
+      "original_url": "https://data.cityofnewyork.us/api/geospatial/pri4-ifjk?method=export&format=Shapefile",
+      "resolved_url": "https://data.cityofnewyork.us/api/geospatial/pri4-ifjk?method=export&format=Shapefile",
+      "cycle": {},
+      "auto_detected": false,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "hd",
+      "original_url": "https://data.cityofnewyork.us/resource/skyk-mpzq.geojson",
+      "resolved_url": "https://data.cityofnewyork.us/resource/skyk-mpzq.geojson",
+      "cycle": {},
+      "auto_detected": false,
+      "status": "ok",
+      "error": {}
+    },
+    {
+      "id": "ibz",
+      "original_url": "https://edc.nyc/sites/default/files/2020-10/IBZ%20Shapefiles.zip",
+      "resolved_url": "https://edc.nyc/sites/default/files/2020-10/IBZ%20Shapefiles.zip",
+      "cycle": {},
+      "auto_detected": false,
+      "status": "ok",
+      "error": {}
+    }
+  ]
+}

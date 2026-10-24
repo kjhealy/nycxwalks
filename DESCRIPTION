@@ -1,0 +1,29 @@
+Package: nycxwalks
+Title: Geographic Crosswalks for New York City Boundaries
+Version: 0.0.1.9000
+Authors@R: c(
+    person("Kieran", "Healy", , "kjhealy@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0001-9114-981X")),
+    person("Nathan", "Storey", role = "ctb",
+           comment = "Author of the original Python crosswalk tool")
+  )
+Description: Crosswalk tables that show how fifteen New York City administrative and statistical geographies overlap. The geographies include community districts, police precincts, council districts, Neighborhood Tabulation Areas, and ZIP code tabulation areas. For each pair of overlapping features, the tables give the intersection area and the share of each feature that the intersection covers. The package also includes the boundaries that were used to compute the tables. The nycbuildxwalks package built the tables. nycbuildxwalks is an R port of the Python tool by Nathan Storey at MODA-NYC (<https://github.com/MODA-NYC/nyc-geography-crosswalks>). That tool builds on earlier work by BetaNYC (<https://github.com/BetaNYC/nyc-boundaries>).
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    cli,
+    rlang
+Suggests: 
+    dplyr (>= 1.1.0),
+    sf (>= 1.0.0),
+    testthat (>= 3.0.0),
+    tibble (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://kjhealy.github.io/nycxwalks/, https://github.com/kjhealy/nycxwalks
+BugReports: https://github.com/kjhealy/nycxwalks/issues
+LazyData: true
+LazyDataCompression: xz
+Depends: 
+    R (>= 4.1.0)
